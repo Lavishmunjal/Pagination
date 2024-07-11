@@ -1,8 +1,23 @@
-# React + Vite
+# Product List with Pagination
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React application that fetches and displays a list of products from an API with pagination functionality. The project uses React hooks (`useState`, `useEffect`) to manage state and side effects.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Installation](#installation)
+- [Usage](#usage)
+- [Code Explanation](#code-explanation)
+  - [State Management](#state-management)
+  - [Fetching Products](#fetching-products)
+  - [Pagination Logic](#pagination-logic)
+  - [Rendering](#rendering)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/product-list-pagination.git
+cd product-list-pagination
